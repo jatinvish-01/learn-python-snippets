@@ -19,3 +19,13 @@ n = int(input("which table you want: "))
 
 for i in range(n, (n*10)+1, n):
       print(i)
+
+a = "SHERIYANS TEACHES INDUSTRY LEVEL"
+print(len(a))
+
+for i in range(len(a)):
+      print(a[i])
+
+b = "SHERIYANS IS COOL"
+for i in b:
+      print(i)
